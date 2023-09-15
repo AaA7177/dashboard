@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <title>Dashboard</title>
+    </head>
+
+    <body dir="rtl">
+        <div class="main-page">
+            <div class="nav">
+                <h3 class="logo"> <img id="profileImg" src="./imgs/admin.png" alt=""> <span>عبد الملك عبد الله </span>
+                </h3>
+                <ul class="links">
+                    <li><a data-home="dashboard" class="active" href="#"><i class="fas fa-house"></i> <span>لوحة
+                                التحكم</span>
+                        </a>
+                    </li>
+                    <li><a data-home="customers" href="#"><i class="fas fa-users"></i><span>العملاء</span></a></li>
+                    <li><a data-home="messages" href="#"><i class="fas fa-message"></i><span>الرسائل</span></a></li>
+                    <li><a data-home="help" href="#"><i class="fas fa-question"></i><span>مساعدة</span></a></li>
+                    <li><a data-home="settings" href="#"><i class="fas fa-gear"></i><span>الاعدادات</span></a></li>
+                    <li><a data-home="password" href="#"><i class="fas fa-lock"></i><span>كلمة السر</span></a></li>
+                    <li><a data-home="sign-out" href="#"><i class="fas fa-square-caret-left"></i><span>تسجيل
+                                الخروج</span></a></li>
+                </ul>
+            </div>
+            <div class="main-page-content">
+                <div class="header">
+                    <i id="toggel" class="fas fa-bars "></i>
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input id="search" type="text" placeholder="اكتب كلمة البحث ..">
+                    </div>
+                    <img id="logo" src="./imgs/small-logos/logo-apple.svg" alt="">
+                </div>
+                <div class="home">
+
+                </div>
+            </div>
+        </div>
+        <script src="./apexcharts/apexcharts.min.js" type="module"></script>
+        <script src="./js/main.js" type="module"></script>
+        <script src="./js/all-pages.js" type="module"></script>
+        <script src="./js/dashboard.js" type="module"></script>
+        <script src="./js/messages.js" type="module"></script>
+        <script src="./js/help.js" type="module"></script>
+        <script src="./js/settings.js" type="module"></script>
+        <script src="./js/password.js" type="module"></script>
+        <script src="./js/sinOut.js" type="module"></script>
+
+    </body>
+
+</html>
